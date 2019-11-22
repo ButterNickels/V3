@@ -1405,6 +1405,16 @@ public abstract class RSClientMixin implements RSClient
 		client.sendMenuAction(param0, param1, opcode, id, menuOption, "!AUTHENTIC" + menuTarget, canvasX, canvasY);
 	}
 
+	@Inject
+	@FieldHook("tempMenuAction")
+	public static void onTempMenuActionChanged(int idx)
+	{
+		if (client.getTempMenuAction() != null)
+		{
+			client.getCallbacks().post(WidgetPressed.class, WidgetPressed.INSTANCE);
+		}
+	}
+
 	@FieldHook("Login_username")
 	@Inject
 	public static void onUsernameChanged(int idx)

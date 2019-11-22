@@ -319,11 +319,16 @@ public final class ItemID
 	public static final int ENCHANTED_BEAR = 524;
 	public static final int ENCHANTED_CHICKEN = 525;
 	public static final int BONES = 526;
+    public static final int NOTED_BONES = 527;
 	public static final int BURNT_BONES = 528;
 	public static final int BAT_BONES = 530;
+    public static final int NOTED_BAT_BONES = 531;
 	public static final int BIG_BONES = 532;
+    public static final int NOTED_BIG_BONES = 533;
 	public static final int BABYDRAGON_BONES = 534;
+    public static final int NOTED_BABYDRAGON_BONES = 535;
 	public static final int DRAGON_BONES = 536;
+	public static final int NOTED_DRAGON_BONES = 537;
 	public static final int DRUIDS_ROBE = 538;
 	public static final int DRUIDS_ROBE_TOP = 540;
 	public static final int MONKS_ROBE = 542;
@@ -1741,6 +1746,7 @@ public final class ItemID
 	public static final int CLUE_SCROLL_MEDIUM_2857 = 2857;
 	public static final int CLUE_SCROLL_MEDIUM_2858 = 2858;
 	public static final int WOLF_BONES = 2859;
+    public static final int NOTED_WOLF_BONES = 2860;
 	public static final int WOLFBONE_ARROWTIPS = 2861;
 	public static final int ACHEY_TREE_LOGS = 2862;
 	public static final int OGRE_ARROW_SHAFT = 2864;
@@ -1891,7 +1897,9 @@ public final class ItemID
 	public static final int CERTIFICATE_3114 = 3114;
 	public static final int GRANITE_SHIELD = 3122;
 	public static final int SHAIKAHAN_BONES = 3123;
+    public static final int NOTED_SHAIKAHAN_BONES = 3124;
 	public static final int JOGRE_BONES = 3125;
+    public static final int NOTED_JOGRE_BONES = 3126;
 	public static final int BURNT_JOGRE_BONES = 3127;
 	public static final int PASTY_JOGRE_BONES = 3128;
 	public static final int PASTY_JOGRE_BONES_3129 = 3129;
@@ -2898,6 +2906,7 @@ public final class ItemID
 	public static final int RUINED_BACKPACK = 4810;
 	public static final int DRAGON_INN_TANKARD = 4811;
 	public static final int ZOGRE_BONES = 4812;
+    public static final int NOTED_ZOGRE_BONES = 4813;
 	public static final int SITHIK_PORTRAIT = 4814;
 	public static final int SITHIK_PORTRAIT_4815 = 4815;
 	public static final int SIGNED_PORTRAIT = 4816;
@@ -4015,6 +4024,7 @@ public final class ItemID
 	public static final int SEERCULL = 6724;
 	public static final int BONEMEAL_6728 = 6728;
 	public static final int DAGANNOTH_BONES = 6729;
+    public static final int NOTED_DAGANNOTH_BONES = 6730;
 	public static final int SEERS_RING = 6731;
 	public static final int ARCHERS_RING = 6733;
 	public static final int WARRIOR_RING = 6735;
@@ -4082,6 +4092,7 @@ public final class ItemID
 	public static final int BONEMEAL_6810 = 6810;
 	public static final int SKELETAL_WYVERN = 6811;
 	public static final int WYVERN_BONES = 6812;
+    public static final int NOTED_WYVERN_BONES = 6813;
 	public static final int FUR = 6814;
 	public static final int SLENDER_BLADE = 6817;
 	public static final int BOWSWORD = 6818;
@@ -10237,6 +10248,7 @@ public final class ItemID
 	public static final int WRATH_TALISMAN = 22118;
 	public static final int WRATH_TIARA = 22121;
 	public static final int SUPERIOR_DRAGON_BONES = 22124;
+    public static final int NOTED_SUPERIOR_DRAGON_BONES = 22125;
 	public static final int ADAMANT_KITESHIELD_22127 = 22127;
 	public static final int ADAMANT_KITESHIELD_22129 = 22129;
 	public static final int ADAMANT_KITESHIELD_22131 = 22131;
